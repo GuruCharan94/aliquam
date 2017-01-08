@@ -4,7 +4,6 @@ $golden-ratio: 1.618;
 // font families
 $font-family-open-sans-condensed: 'Open Sans Condensed', sans-serif;
 $font-family-open-sans: 'Open Sans', sans-serif;
-$font-family-lato-serif: 'Lato', sans-serif;
 
 
 /*************************************************************************
@@ -22,7 +21,7 @@ $f-s-default: 1rem;
 $l-h-default: $f-s-default * $golden-ratio;
 
 // small font size and line height
-$f-s-small: $f-s-default * 0.7;
+$f-s-small: $f-s-default * 0.75;
 $l-h-small: $f-s-default * 1.1;
 
 // code font-size and line height
@@ -89,10 +88,7 @@ sub {
 }
 
 //----------------------------DOUBLE
-.paginator,
-#main-nav {
-  letter-spacing: $l-s-double;
-}
+
 
 
 /*************************************************************************
@@ -129,10 +125,10 @@ a {
 
 //----------------------------UPPERCASE
 #footer-main,
-.paginator,
 #main-nav,
 abbr,
 .post-meta,
+article h1, article h2,
 .contact-form input[type="submit"] {
   text-transform: uppercase;
 }
@@ -149,6 +145,10 @@ h4 {
   font-size: $f-s-default;
 }
 
+#main-nav{
+    font-size:$f-s-default;
+}
+
 html {
   font-size: $f-s-mobile;
 }
@@ -161,7 +161,6 @@ h2 {
   font-size: $f-s-h2;
 }
 
-#main-nav,
 h3 {
   font-size: $f-s-h3;
 }
@@ -181,6 +180,7 @@ article > blockquote,
 abbr {
   font-size: smaller;
 }
+
 
 /*************************************************************************
                               LINE-HEIGHT
@@ -221,7 +221,7 @@ small, .alert {
 
 //----------------------------DROID-SERIF
 h1, h2, h3, h4, h5, h6 {
-  font-family: $font-family-lato-serif;
+  font-family: $font-family-open-sans;
 }
 
 //----------------------------OPEN-SANS
@@ -234,5 +234,5 @@ h1, h2, h3, h4, h5, h6 {
 #footer-main,
 .paginator,
 #main-nav {
-  font-family: $font-family-open-sans-condensed;
+  font-family: $font-family-open-sans;
 }

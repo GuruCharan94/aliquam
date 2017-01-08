@@ -1,8 +1,9 @@
 // colors
 $color-black: #2B2B2B;
-$color-white: #fcfcfc;
+$color-white: #fff;
 $color-blue: lighten(#1D408C, 10);
 $color-orange: #d16b19;
+$color-custom:#2A8C78;
 $color-green: #1BA914;
 $color-red: #CF191D;
 
@@ -32,7 +33,7 @@ $color-note-dark: darken($color-note, 10);
 //---------------------------FONT
 main a,
 main a:visited {
-  color: $color-blue;
+  color: $color-custom;
 }
 
 /*************************************************************************
@@ -43,7 +44,7 @@ main a:visited {
 
 main a:hover,
 .info {
-  color: $color-blue-dark;
+  color: darken($color-custom, 5);
 }
 
 
@@ -74,7 +75,7 @@ main a:hover,
 /*************************************************************************/
 
 //---------------------------FONT
-#footer-quote,
+#footer-quote, .tags ul li a,
 .highlighter-header,
 article > table th,
 #wrapper > header a,
@@ -99,14 +100,10 @@ main {
 }
 
 //---------------------------BACKGROUND
-.paginator {
-  background-color: $color-paginator;
-}
+
 
 //---------------------------BORDER
-.preview {
-  border-bottom-color: $color-paginator;;
-}
+
 
 /*************************************************************************
                              PAGINATOR-DARKER-COLOR
@@ -158,23 +155,23 @@ article > ol li::before {
 }
 
 //---------------------------BACKGROUND
-.contact-form input[type="submit"],
+.contact-form input[type="submit"], .tags ul li,
 #main-nav .fancy-nav:before,
 #main-nav .fancy-nav:after,
 article > table th,
 .highlighter-header {
-  background-color: $color-orange;
+  background-color: $color-custom;
 }
 
 //---------------------------BORDER
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: $color-orange;
+  border-color: $color-custom;
 }
 
 //---------------------------BORDER-LEFT
 article > blockquote {
-  border-left-color: $color-orange;
+  border-left-color: $color-custom;
 }
 
 
@@ -184,6 +181,7 @@ article > blockquote {
 
 //---------------------------FONT
 
+#wrapper>header a, #wrapper>header a:visited,
 article h1,
 article > h2,
 article > h3,
@@ -194,7 +192,7 @@ article > h6,
 .warning,
 .link-to-post,
 .link-to-post:visited {
-  color: $color-orange-dark;
+  color: $color-custom;
 }
 
 /*************************************************************************
@@ -289,11 +287,11 @@ article > table th,
                            MISC-COLOR
 /*************************************************************************/
 .link-to-post:hover {
-  color: darken($color-orange-dark, 5);
+  color: darken($color-custom, 5);
 }
 
-.contact-form input[type="submit"]:hover {
-  background-color: darken($color-orange, 10);
+.contact-form input[type="submit"]:hover ,.tags ul li:hover{
+  background-color: darken($color-custom, 10);
 
 }
 
@@ -303,5 +301,5 @@ article > table th,
 .contact-form input:focus,
 .contact-form textarea:focus {
   outline: none;
-  box-shadow: 0 0 4px $color-orange;
+  box-shadow: 0 0 4px $color-custom;
 }

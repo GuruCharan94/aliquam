@@ -26,21 +26,19 @@ $l-h-baseline-half: $l-h-default * 0.25;
 
 .tags,
 .tags li {
-  display: inline-block;
+    display: inline-block;
 }
 
 //---------------------------BLOCK
 #footer-quote p:before,
-.contact-form input
-{
-  display: block;
+.contact-form input {
+    display: inline-block;
 }
 
 //---------------------------NONE
 
 .sep {
-  display: none;
-
+    display: none;
 }
 
 /*************************************************************************
@@ -48,8 +46,8 @@ $l-h-baseline-half: $l-h-default * 0.25;
 /*************************************************************************/
 
 #footer-quote p:before {
-  width: $l-h-baseline-half * 5;
-  height: $l-h-baseline-half * 5;
+    width: $l-h-baseline-half * 5;
+    height: $l-h-baseline-half * 5;
 }
 
 /*************************************************************************
@@ -58,29 +56,30 @@ $l-h-baseline-half: $l-h-default * 0.25;
 
 .fancy-nav:before,
 .fancy-nav:after {
-  height: 2px;
+    height: 2px;
 }
 
-/*************************************************************************
-                                WIDTH
-/*************************************************************************/
+//*************************************************************************
+article {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 //----------------------------MAX-WIDTH
 
-article,
 #footer-quote {
-  max-width: $media-query-med-2;
+    max-width: $media-query-med-2;
 }
 
-.paginator ul,
-#main-nav {
-  max-width: $media-query-min * 0.5;
+.paginator ul {
+    max-width: $media-query-min * 0.5;
 }
 
 //----------------------------MIN-WIDTH
 
 #wrapper {
-  min-width: $media-query-min;
+    min-width: $media-query-min;
 }
 
 //----------------------------WIDTH=100%
@@ -89,11 +88,11 @@ main img,
 .fancy-nav:after,
 article > table,
 .contact-form textarea {
-  width: 100%;
+    width: 100%;
 }
 
 .contact-form input[type="submit"] {
-  width: $l-h-baseline-double * 4;
+    width: $l-h-baseline-double * 4;
 }
 
 /*************************************************************************
@@ -104,14 +103,14 @@ article > table,
 
 #main-nav li,
 .paginator li {
-  position: relative;
+    position: relative;
 }
 
 //----------------------------ABSOLUTE
 
 .fancy-nav:before,
 .fancy-nav:after {
-  position: absolute;
+    position: absolute;
 }
 
 /*************************************************************************
@@ -121,7 +120,7 @@ article > table,
 //----------------------------LEFT=0
 .fancy-nav:before,
 .fancy-nav:after {
-  left: 0;
+    left: 0;
 }
 
 /*************************************************************************
@@ -135,7 +134,7 @@ article > table,
 
 //----------------------------TOP=0
 .fancy-nav:before {
-  top: 0;
+    top: 0;
 }
 
 /*************************************************************************
@@ -144,7 +143,5 @@ article > table,
 
 //----------------------------BOTTOM=0
 .fancy-nav:after {
-  bottom: 0;
+    bottom: 0;
 }
-
-

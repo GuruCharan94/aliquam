@@ -4,7 +4,6 @@
                              MARGIN=0-AUTO
 /*************************************************************************/
 .paginator ul,
-#main-nav,
 #footer-quote p:before,
 #footer-quote,
 article {
@@ -34,6 +33,10 @@ article > blockquote {
   margin-right: $l-h-baseline;
 }
 
+.paginator li{
+    margin : 0 10px;
+}
+
 /*************************************************************************
                              MARGIN-BOTTOM
 /*************************************************************************/
@@ -42,6 +45,7 @@ article > blockquote {
 .contact-form input,
 .contact-form textarea {
   margin-bottom: $l-h-baseline;
+  margin-right :$l-h-baseline;
 }
 
 //---------------------------BASELINE-DOUBLE
@@ -157,7 +161,6 @@ article {
 /*************************************************************************/
 
 //---------------------------BASELINE
-#wrapper > footer,
 .alert h4{
   padding-top: $l-h-baseline;
 }
@@ -168,10 +171,6 @@ article > h4
   padding-top: $l-h-baseline-double;
 }
 
-//---------------------------BASELINE-DOUBLE=*2
-article:not(.preview) h2 {
-  padding-top: $l-h-baseline-double * 2;
-}
 
 //---------------------------MISC
 article h3 {
@@ -209,10 +208,6 @@ article > ol {
   padding-bottom: $l-h-baseline-double;
 }
 
-//---------------------------BASELINE-DOUBLE=*2
-article header h1 {
-  padding-bottom: $l-h-baseline-double *2;
-}
 
 /*************************************************************************
                              PADDING-LEFT

@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 {% include head.html %}
-<body style="background: url('{{ site.baseurl }}/resources/images/main_front.jpg') no-repeat fixed;
-                            background-size: cover">
+<body>
 <div id="wrapper">
     {% include header.html %}
     <main id="start">
@@ -11,12 +10,15 @@
         </div>
     </main>
         {% include paginator.html %}
-    <footer>
-        {% include footer.html %}
+    <footer class="contact-me">
+        {% include social.html %}
     </footer>
 </div>
 {% if site.disqus %}
 <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
 {% endif %}
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </body>
 </html>
