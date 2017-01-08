@@ -109,6 +109,4 @@ Italic text: *I am italic*
 
 Inline code: `html`, `css`, `git clone <url>`.
 
-Link text: [more examples](http://www.dennis-grinch.co.uk)
-
 Abbreviation: <abbr title='Content Management System'>CMS</abbr>
