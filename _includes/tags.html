@@ -1,5 +1,7 @@
-<ul class="tags">
-    {% for tag in page.tags %}
-    <li><a href="{{ site.baseurl }}/tags/{{ tag | downcase }}">{{ tag }}</a></li>
-    {% endfor %}
-</ul>
+<div class = "tags">
+    <ul>
+        {% for tag in page.tags %}
+        <li><a href="{{ site.baseurl }}/tags/{{ tag | downcase }}">{{ tag }}</a></li>
+        {% endfor %}
+    </ul>   
+</div>
