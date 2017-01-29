@@ -13,7 +13,7 @@
             {% for link in site.categories %}
             <li>
                 <a class="fancy-nav" href="{{ site.baseurl }}/categories/{{ link | first | downcase }}">
-                    {{ link | first  }}
+                    {{ link | first | replace:'-',' ' }}
                 </a>
             </li>
             {% endfor %}
