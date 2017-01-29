@@ -4,8 +4,10 @@
 <body>
 <div id="wrapper">
     {% include header.html %}
-    <main>      
-          {{ content }}       
+    <main id="start">
+         <div class="articles">
+             {{ content }}
+        </div>     
     </main>
         {% include paginator.html %}
     <footer class="contact-me">
