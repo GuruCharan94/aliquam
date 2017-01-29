@@ -1,6 +1,6 @@
 <div class="post-meta">
-    <small>
-        {% include tags.html %}
+    {% include tags.html %}
+    <small>        
         <time datetime="{{ page.date | date: '%F' }}" style="margin-left:20px;">
            Posted on {{ page.date | date: "%d %B, %Y" }}
         </time>
