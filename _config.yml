@@ -41,6 +41,9 @@ baseurl:
 # Change this to your google analytics ID
 google_analytics: UA-89662853-1
 
+# Add this ID  www.addthis.com
+addthis: ra-5879f7fffac9b3c6
+
 # Contact form pupublic key
 contact_PK: 6b74036d69c0b885256365847afd94d2
 
