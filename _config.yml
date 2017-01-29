@@ -2,7 +2,7 @@
 ##########################################
 #     Change these variables !important
 ##########################################
-author: Gurucharan
+author: Gurucharan94
 # Set this to your main site title. If page doesn't have its own title,# then this title will be used.
 title: Wizardry with Visual Studio
 # Set your host if deployed not locally # For example "https://yourGitHub.github.io"
@@ -10,12 +10,16 @@ url: http://www.gurucharan.in
 # Optional quote in the footer To disable set enable to false
 logo: /resources/images/logo.png
 
+twitter:
+  username: Gurucharan94
+
 social:
   name: Gurucharan
   links:
     - https://www.facebook.com/gurucharan1994
     - https://www.linkedin.com/in/gurucharan94
     - https://github.com/gurucharan94
+    - https://twitter.com/GuruCharan94
 
 quote:
   enable: false
@@ -24,10 +28,12 @@ quote:
 
 # Following needed for disqus integration # Set your 'disqus' account name
 disqus: gurucharan
+#Footer
 footer-links:
   facebook: gurucharan1994
   github: GuruCharan94
   linkedin: gurucharan94
+  twitter: Gurucharan94
 
 
 # Change this to your base URL starting with forward slash if site is in gh-pages branch
