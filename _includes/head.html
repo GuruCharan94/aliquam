@@ -1,50 +1,14 @@
 <head>
-    <title>
-        {% if page.title %}
-        {{ page.title }}
-        {% else %}
-        {{ site.title }}
-        {% endif%}
-    </title>
-
     <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <meta name="robots" content="follow,index">
-
-    {% if page.description %}
-
-    <meta name="description" content="{{ page.description }}" />
-    <meta property="og:description" content="{{ page.description }}" />
-    <meta name="twitter:description" content="{{ page.description }}" />
-
-    {% else %}
-
-    <meta name="description" content="{{ site.title }}">
-    <meta property="og:description" content="{{ site.title }}" />
-    <meta name="twitter:description" content="{{ site.title }}" />
-
-    {% endif %}
-
-    <meta name="author" content="{{ site.author }}" />
-    {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
-    {% else %}
-    <meta property="og:title" content="{{ site.title }}" />
-    <meta property="twitter:title" content="{{ site.title }}" />
-    {% endif%}
-
-    <meta name="twitter:card" content=”summary”>
+    <meta name="author" content="@{{ site.author }}" />
     <link rel="icon" type="image/png" href="{{ site.baseurl }}/resources/images/logo.png">
-
     <link rel="stylesheet" href="{{ site.baseurl }}/resources/css/main.css" />
     {% if page.css %}
     <link rel="stylesheet" href="{{ site.baseurl }}{{ page.css }}" />
     {% endif %}
-    
-    <!-- New Tag!-->
+    <!-- SEO Magic--!>
     {% seo %}
-
 </head>
-
