@@ -80,7 +80,6 @@ article > ol li:before {
 }
 
 //---------------------------BASELINE
-#wrapper >header,
 .paginator ul
 {
   padding: $l-h-baseline;
@@ -109,8 +108,7 @@ article > table th,
 //---------------------------BASELINE
 article > blockquote,
 .alert,
-.highlighter-header,
-#wrapper > header {
+.highlighter-header {
   padding-left: $l-h-baseline;
   padding-right: $l-h-baseline;
 }
