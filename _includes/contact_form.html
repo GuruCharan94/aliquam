@@ -1,7 +1,7 @@
-<form class="contact-form" action="https://getsimpleform.com/messages?form_api_token={{ site.contact_PK }}" method="post">
+<form class="contact-form" action="https://getsimpleform.com/messages?form_api_token={{ site.contact_PK }}" method="post" style="width:50%">
     <input type='hidden' name='redirect_to' value='{{ site.url }}{{ site.baseurl }}/pages/thankyou' />
-    <input required="required" id="name" placeholder="Name *" type='text' name='name' />
-    <input required="required" id="email" placeholder="Email *" type='email' name='email' />
+    <input required="required" id="name" placeholder="Your Name" type='text' name='name' />
+    <input required="required" id="email" placeholder="Your Email" type='email' name='email' />
     <textarea name="message" placeholder="Enter your message here..." id="message" cols="20" rows="5"></textarea>
     <input type='submit' value='Send' />
 </form>
