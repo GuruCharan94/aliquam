@@ -6,9 +6,14 @@
 title: Wizardry with Visual Studio
 # Set your host if deployed not locally # For example "https://yourGitHub.github.io"
 url: http://www.gurucharan.in
-# Optional quote in the footer To disable set enable to false
 logo: /resources/images/logo.png
-image: /resources/images/logo.png
+
+# Default Image For Social Share if no image is specified in the page YAML Front Matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /resources/images/logo.png
 
 twitter:
   username: Gurucharan94
