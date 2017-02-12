@@ -9,4 +9,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}{{ page.css }}" />
     {% endif %}
     {% seo %}
+    {% if facebook.publisher %}
+    <meta property="article:author" content="{{facebook.publisher}}" />
+
+    {% endif %}
 </head>
