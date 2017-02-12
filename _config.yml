@@ -2,7 +2,6 @@
 ##########################################
 #     Change these variables !important
 ##########################################
-author: Gurucharan94
 # Set this to your main site title. If page doesn't have its own title,# then this title will be used.
 title: Wizardry with Visual Studio
 # Set your host if deployed not locally # For example "https://yourGitHub.github.io"
