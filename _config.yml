@@ -13,7 +13,9 @@ defaults:
   - scope:
       path: ""
     values:
-      image: /resources/images/logo.png
+      image: 
+        twitter: /resources/images/logo.png
+        facebook: /resources/image/logo.png
 
 twitter:
   username: Gurucharan94
