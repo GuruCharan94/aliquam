@@ -15,7 +15,7 @@ defaults:
     values:
       image: 
         twitter: /resources/images/logo.png
-        facebook: /resources/image/logo.png
+        facebook: /resources/images/logo.png
 
 twitter:
   username: Gurucharan94
