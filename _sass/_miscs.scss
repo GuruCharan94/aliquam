@@ -17,11 +17,6 @@ article > ol li:before {
   counter-increment: item;
 }
 
-article > ul li,
-article > ol li {
-  text-indent: -$l-h-baseline-half * 3;
-}
-
 /*************************************************************************
                                 USER-SELECT
 /*************************************************************************/
