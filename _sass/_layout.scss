@@ -80,6 +80,9 @@ article {
 
 #wrapper {
     min-width: $media-query-min;
+    min-height: 100%;
+    margin-bottom: -50px;
+    padding-bottom: 50px;
 }
 
 //----------------------------WIDTH=100%

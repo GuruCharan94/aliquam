@@ -100,3 +100,7 @@ body {
 #footer-quote p:before {
   background-size: $l-h-baseline-half * 5;
 }
+
+html, body {
+    height: 100%;
+}

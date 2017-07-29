@@ -5,13 +5,13 @@
 <div id="wrapper">
     {% include header.html %}
     <main>
-        {{ content }}        
+        {{ content }}
     </main>
         {% include paginator.html %}
-    <footer class="contact-me">
-        {% include social.html %}
-    </footer>
 </div>
+<footer class="contact-me">
+    {% include social.html %}
+</footer>
 {% if site.disqus %}
 <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
 {% endif %}
