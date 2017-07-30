@@ -38,7 +38,6 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
 <div class="note alert"><strong>NOTE: </strong>This is note message</div>
 
 <div class="success alert">
-<h4>This is h4 header!</h4>
 <p>Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere</p>
 <p>Mauris <i>ullamcorper lacus</i> sed augue molestie, git clone ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.</p>
 </div>
@@ -100,8 +99,6 @@ Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue m
 
 
 Curabitur pharetra eget ante at vestibulum. Mauris ullamcorper lacus sed augue molestie, ac consequat erat posuere. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur odio sapien, sollicitudin ut pharetra in, tincidunt vel elit.
-
-![image test](/resources/images/main_front.jpg) 
 
 Bold text: __I am bold__
 
