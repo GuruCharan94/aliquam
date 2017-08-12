@@ -1,4 +1,6 @@
-# My Personal Blog powered by Jekyll and Github Pages.
+# A blog powered by Jekyll and Github Pages.
+
+Contains Dummy Text Only.. :)
 
 This repository is a fork of the excellent work of [Dennis Grinch](https://github.com/grrinchas/aliquam) and later customized to suit my needs.
 
